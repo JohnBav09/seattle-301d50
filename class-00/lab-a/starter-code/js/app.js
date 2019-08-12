@@ -40,7 +40,7 @@ function displayPics(){
   // so rather then using the whole brick of code it goes between {}. Whereas, constant only exsists on that line of code.
 
   console.log(viewed);
-
+  console.log('random log')
   for (let i = 0; i < 3; i++){
     let temp = viewed.shift();
     pics[i].src = allProducts[temp].path;
