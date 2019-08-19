@@ -1,0 +1,19 @@
+{
+  "name": "Serverbasics",
+  "version": "1.0.0",
+  "description": "joy of servers in class",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnBav09/seattle-301d50.git"
+  },
+  "author": "John Bavendam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnBav09/seattle-301d50/issues"
+  },
+  "homepage": "https://github.com/JohnBav09/seattle-301d50#readme"
+}
