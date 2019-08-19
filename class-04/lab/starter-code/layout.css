@@ -1,6 +1,6 @@
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block}
 
 body {
 	line-height: 1;
@@ -726,7 +726,7 @@ body {
                         }
                     
                             .image img {
-                                display: block;
+                                display: inline-flex;
                                 width: 100%;
                             }
                     
@@ -742,23 +742,22 @@ body {
                                 }
                     
                             .image.fit {
-                                display: block;
+                                display: inline-block;
                                 width: 100%;
                             }
                     
                             .image.featured {
-                                display: block;
+                                display: inline-block;
                                 width: 100%;
                                 margin: 0 0 2em 0;
                             }
                     
                             .image.left {
-                                float: left;
                                 margin: 0 2em 2em 0;
                             }
                     
                             .image.centered {
-                                display: block;
+                                display: inline-flex;
                                 margin: 0 0 2em 0;
                             }
                     
