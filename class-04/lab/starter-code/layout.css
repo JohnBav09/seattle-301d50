@@ -1,6 +1,17 @@
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block}
+    display: block
+}
+    
+    Video {
+        position: absolute;
+        left: 0;
+        z-index: -1;
+        bottom: 100px;
+        width: 50%;
+        min-height: 110%;
+        min-width: 100%;
+        }
 
 body {
 	line-height: 1;
@@ -890,7 +901,7 @@ body {
                                 text-align: left;
                                 padding: 0.5em 1em 0.5em 1em;
                                 color: green;
-                                background: #1f2020 url("images/overlay.png");
+                                background: #1f2020 url("/images/ie/GYARADOS.mp4");
                             }
                     
                             table thead {
@@ -1039,4 +1050,5 @@ body {
                                                 #nav ul li a.active span:before {
                                                     color: #e27689;
                     
+    
             
